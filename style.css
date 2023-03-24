@@ -26,10 +26,37 @@
 }
 
 
-.Loremsottomontagne{
+.corpo{
 
-            color: rgb(144,4,4);
+            color: gray;
             font-family: helvetica;
             
 
+}
+
+.virgolette{
+     
+    color: rgb(144,4,4);
+    font-family: Impact;
+    font-size: x-large;
+
+}
+
+
+.sezione_icone{
+    height: 500px;
+}
+
+.icona{
+    color: rgb(144,4,4);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.testo_icone{
+    color: grey;
+    font-family: helvetica;
+    font-size: smaller;
 }
