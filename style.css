@@ -1,0 +1,20 @@
+.Titolo{
+    size: 400px;
+    color: rgb(144,4,4);
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    
+}
+.Titolobg{
+    background: linear-gradient(to top, transparent, mistyrose),
+          url(./Red/Red/media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   }
+.immaginict{
+    
+}   
