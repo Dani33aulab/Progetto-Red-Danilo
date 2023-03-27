@@ -154,3 +154,20 @@ ul.timeline > li:before {
     bottom:0px;
  }
 
+ /* inizio sezione our team */
+
+ .card-title {
+    color: rgb(144,4,4);
+    display: flex;
+    justify-content: center;
+ }
+
+.card-text {
+    display: flex;
+    text-align: center;
+}
+
+.icone-team {
+    color: rgb(144,4,4);
+   
+}
