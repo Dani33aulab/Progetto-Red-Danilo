@@ -155,7 +155,11 @@ ul.timeline > li:before {
  }
 
  /* inizio sezione our team */
-
+.h2Team{
+    color: rgb(144,4,4);
+    font-size: x-large;
+    margin-left: 20vh;
+}
  .card-title {
     color: rgb(144,4,4);
     display: flex;
