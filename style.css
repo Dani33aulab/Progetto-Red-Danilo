@@ -18,6 +18,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    background-position-y: -20vh;
  }
 
  /* montagne bianche */
@@ -26,12 +27,14 @@
     left:0 ;
     bottom: -125px;
     width: 100%;
+    
 }
 
 .frase_virgolettata{
     margin-left:300px;
     margin-right: 300px;
     margin-bottom: 150px;
+    margin-top: 30px;
     
 }
 .corpo{
@@ -88,7 +91,11 @@
 
 /* sezione bottone */
 .container1{
+    
     position: relative;
+    
+   
+    
    
 }
 #button{
@@ -177,9 +184,10 @@ ul.timeline > li:before {
 }
 .img-our-team{
     
-    display: flex;
-    border: red 100px; 
-    
+    display: flex;  
+   border-radius: 50%;
+   background-color: rgba(0, 200, 200, 0);
+   border: 3px solid  rgb(144,4,4);
     
     
     
@@ -198,3 +206,50 @@ ul.timeline > li:before {
     color: rgb(144,4,4);
     font-size: 20px;
 }
+
+/* inizio footer */
+.footer{
+    background-color:rgba(139,1,2,255); 
+    height: 65vh;
+
+}
+
+
+ .h2-footer{
+    color: white;
+    font-family: helvetica;
+    margin-left: 15vh;
+    margin-top: 15vh;
+    font-size: x-large;
+ } 
+ .h3-footer{
+    color: white;
+    font-family: helvetica;
+    margin-left: 15vh;
+    font-size: larger;
+ }  
+ .p-footer{
+    color: white;
+    font-family: helvetica;
+    margin-left: 15vh;
+
+ }
+.h3-footer-2{
+    color: white;
+    font-family: helvetica;
+    margin-left: 15vh;
+    margin-top: 22vh;
+    font-size: larger;
+}
+.ul-footer{
+    color: white;
+    font-family: helvetica;
+    margin-left: 12vh;
+    margin-top: 3vh;
+   
+}
+.li-footer{
+    margin-bottom: 2vh;
+}
+
+/* il font che ha usato per la referent è :font-family:  Nova Square, Rajdhani */
