@@ -157,7 +157,7 @@ ul.timeline > li:before {
  /* inizio sezione our team */
 .h2Team{
     color: rgb(144,4,4);
-    font-size: x-large;
+    font-family: helvetica;
     margin-left: 20vh;
 }
  .card-title {
@@ -174,4 +174,27 @@ ul.timeline > li:before {
 .icone-team {
     color: rgb(144,4,4);
    
+}
+.img-our-team{
+    
+    display: flex;
+    border: red 100px; 
+    
+    
+    
+    
+}
+.card{
+   border: none;
+}
+.benefit{
+    display: flex;
+    
+}
+.paragrafo-benefit{
+    width: 50px;
+}
+.titolo-benefit{
+    color: rgb(144,4,4);
+    font-size: 20px;
 }
