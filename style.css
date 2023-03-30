@@ -5,21 +5,24 @@
 .Titolo{
     color: rgb(144,4,4);
     font-size: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: end;
     font-family: monospace;
-    height: 50vh;
+    
 }
 /* montagna svizzera */
 .Titolobg{
-    background: linear-gradient(to top, transparent, mistyrose),
-          url(./Red/Red/media/switzerland-862870_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position-y: -20vh;
- }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Red/Red/media/mountains2.png),
+    linear-gradient(
+    rgba( 255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+    ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+    background-position: bottom, center;
+    background-size: 100%,100% ;
+    background-repeat: no-repeat, no-repeat;
+    
+}
 
  /* montagne bianche */
 .montagnebianche{
@@ -30,13 +33,6 @@
     
 }
 
-.frase_virgolettata{
-    margin-left:300px;
-    margin-right: 300px;
-    margin-bottom: 150px;
-    margin-top: 30px;
-    
-}
 .corpo{
 
             color: gray;
@@ -90,23 +86,20 @@
 /* fine sezione 2 schede lorem */
 
 /* sezione bottone */
-.container1{
-    
-    position: relative;
-    
+.bottonedimerda{
    
-    
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #button{
     position: absolute;
-    display: flex;
-    top: 215px;
-    left:600px;
     background-color: rgb(144,4,4);
     color: white;
 } 
   /* fine sezione bottono  */
+
 
   /* inizio timeline */
 
@@ -210,7 +203,7 @@ ul.timeline > li:before {
 /* inizio footer */
 .footer{
     background-color:rgba(139,1,2,255); 
-    height: 65vh;
+    height: 60vh;
 
 }
 
@@ -218,38 +211,94 @@ ul.timeline > li:before {
  .h2-footer{
     color: white;
     font-family: helvetica;
-    margin-left: 15vh;
-    margin-top: 15vh;
+  
+    margin-top: 10vh;
     font-size: x-large;
  } 
  .h3-footer{
     color: white;
     font-family: helvetica;
-    margin-left: 15vh;
+
     font-size: larger;
  }  
  .p-footer{
     color: white;
     font-family: helvetica;
-    margin-left: 15vh;
+
 
  }
 .h3-footer-2{
+    
     color: white;
     font-family: helvetica;
-    margin-left: 15vh;
     margin-top: 22vh;
     font-size: larger;
+    margin-left: 20px;
 }
 .ul-footer{
     color: white;
     font-family: helvetica;
-    margin-left: 12vh;
     margin-top: 3vh;
    
 }
 .li-footer{
     margin-bottom: 2vh;
+}
+@media screen and (max-width:800px){
+    .footer{
+        background-color:rgba(139,1,2,255); 
+        height: 50vh;
+    
+    }
+    .h2-footer{
+        color: white;
+        font-family: helvetica;
+        font-size: large;
+     } 
+     .h3-footer{
+        color: white;
+        font-family: helvetica;
+    
+        font-size: medium;
+     }  
+     .p-footer{
+        color: white;
+        font-family: helvetica;
+        font-size: small;
+    
+    
+     }
+    .h3-footer-2{
+        
+        color: white;
+        font-family: helvetica;
+        margin-top: 12vh;
+        font-size: medium;
+        margin-left: 20px;
+    }
+    .ul-footer{
+        color: white;
+        font-family: helvetica;
+        margin-top: 1vh;
+       font-size: small;
+    }
+    .li-footer{
+        margin-bottom: 1vh;
+    
+}
+}
+
+@media screen and (max-width:500px){
+    .footer{
+        background-color:rgba(139,1,2,255); 
+        height: 60vh;
+    }    
+}
+@media screen and (max-width:400px){
+    .footer{
+        background-color:rgba(139,1,2,255); 
+        height: 70vh;
+    }    
 }
 
 /* il font che ha usato per la referent è :font-family:  Nova Square, Rajdhani */
