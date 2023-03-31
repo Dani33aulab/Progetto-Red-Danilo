@@ -1,11 +1,15 @@
 /* titolo h1 */
 .body{
     background-color:rgb(236, 236, 236);
+    font-family: 'Rajdhani', sans-serif;
 }
 .Titolo{
     color: rgb(144,4,4);
     font-size: 10vh;
-    font-family: monospace;
+    font-size: bolder;
+    font-family: 'Nova Square';
+    letter-spacing: 20px;
+    
     
 }
 /* montagna svizzera */
@@ -13,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     background-image: url(/Red/Red/media/mountains2.png),
     linear-gradient(
     rgba( 255, 255, 255, 1),
@@ -20,35 +25,26 @@
     ), url(/Red/Red/media/switzerland-862870_1920.jpg);
     background-position: bottom, center;
     background-size: 100%,100% ;
-    background-repeat: no-repeat, no-repeat;
-    
+    background-repeat: no-repeat, no-repeat;  
+    height: 100vh; 
 }
-
- /* montagne bianche */
+/* montagne bianche */
 .montagnebianche{
     position: absolute;
     left:0 ;
     bottom: -125px;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .corpo{
-
-            color: gray;
-            font-family: helvetica;
-            
-
+    color: gray;
 }
 
-.virgolette{
-     
+.virgolette{    
     color: rgb(144,4,4);
     font-family: Impact;
     font-size: x-large;
-
 }
-
 
 .sezione_icone{
     height: 250px;
@@ -57,37 +53,35 @@
 .icona{
     color: rgb(144,4,4);
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 
 .testo_icone{
-    color: grey;
-    font-family: helvetica;
+    color: grey; 
     font-size: smaller;
+}
+@media screen and (max-width-sm){
+    .sezione_icone{
+        height: 40vh;
+    }
 }
 /* sezione 2 schede lorem */
 .scheda-sinistra{
     color:gray;
-    font-family: helvetica;
-
 }
+
 .scheda-destra{
     color:gray;
-    font-family: helvetica;
-    text-align:end;
-    
+    text-align:end;   
 }
+
 .h2-schede-lorem{
-    color: rgb(144,4,4);
-    
+    color: rgb(144,4,4);   
 }
 /* fine sezione 2 schede lorem */
 
 /* sezione bottone */
-.bottonedimerda{
-   
+.bottonedimerda{  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +96,7 @@
 
 
   /* inizio timeline */
-
+  
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -135,35 +129,34 @@ ul.timeline > li:before {
 }
  .titolo{
     color:rgb(144,4,4);
-    font-family: helvetica;
-    margin-left: 16vh;
+    
  }
 
  .sfondocontainer2 {
     background-color: white;
     position: relative;
- }
+}
 
  .titolotimeline {
-    color:rgb(144,4,4);
+     color:rgb(144,4,4);
  }
 
  .sfondo-alberi-grigi {
-    display: flex;
+     display: flex;
     position: absolute;
     right:0px;
     bottom:0px;
- }
+}
 
  /* inizio sezione our team */
 
- .card{
+.card{
     background-color:rgb(236, 236, 236);
- }
+}
 
- .card-footer{
+.card-footer{
     background-color:rgb(236, 236, 236);
- }
+}
 
 .h2Team{
     color: rgb(144,4,4);
@@ -174,7 +167,7 @@ ul.timeline > li:before {
     color: rgb(144,4,4);
     display: flex;
     justify-content: center;
- }
+}
 
 .card-text {
     display: flex;
@@ -215,104 +208,196 @@ ul.timeline > li:before {
 }
 
 /* inizio footer */
+.h2-footer{
+  
+   margin-top: 10vh;
+   font-size: x-large;
+} 
+
 .footer{
     background-color:rgba(139,1,2,255); 
     height: 60vh;
-
+    color: white;
 }
 
-
- .h2-footer{
-    color: white;
-    font-family: helvetica;
-  
-    margin-top: 10vh;
-    font-size: x-large;
- } 
  .h3-footer{
-    color: white;
-    font-family: helvetica;
-
-    font-size: larger;
+font-size: larger;
  }  
- .p-footer{
-    color: white;
-    font-family: helvetica;
-
-
- }
-.h3-footer-2{
-    
-    color: white;
-    font-family: helvetica;
-    margin-top: 22vh;
+ 
+ .h3-footer-2{   
     font-size: larger;
     margin-left: 20px;
 }
+
 .ul-footer{
-    color: white;
-    font-family: helvetica;
     margin-top: 3vh;
    
 }
 .li-footer{
     margin-bottom: 2vh;
 }
-@media screen and (max-width:800px){
-    .footer{
-        background-color:rgba(139,1,2,255); 
-        height: 50vh;
-    
+
+@media screen and (max-width: 1400px){
+    .Titolo{
+        color: rgb(144,4,4);
+        font-size: 8vh;
+        font-size: bolder;
+        font-family: 'Nova Square';
+        letter-spacing: 16px;
+        
+    }
+    .Titolobg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        background-image: url(/Red/Red/media/mountains2.png),
+        linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+        background-position: bottom, center;
+        background-size: 100%,100% ;
+        background-repeat: no-repeat, no-repeat;  
+        height: 80vh; 
+    }    
+}
+@media screen and (max-width: 1200px){
+    .Titolo{
+        color: rgb(144,4,4);
+        font-size: 8vh;
+        font-size: bolder;
+        font-family: 'Nova Square';
+        letter-spacing: 16px;
+        
+    }
+    .Titolobg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-image: url(/Red/Red/media/mountains2.png),
+        linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+        background-position: bottom, center;
+        background-size: 100%,100% ;
+        background-repeat: no-repeat, no-repeat;  
+        height: 60vh; 
+    }    
+}
+@media screen and (max-width: 900px){
+    .Titolo{
+        color: rgb(144,4,4);
+        font-size: 6vh;
+        font-size: bolder;
+        font-family: 'Nova Square';
+        letter-spacing: 14px;
+        
+    }
+    .Titolobg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-image: url(/Red/Red/media/mountains2.png),
+        linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+        background-position: bottom, center;
+        background-size: 100%,100% ;
+        background-repeat: no-repeat, no-repeat;  
+        height: 40vh; 
     }
     .h2-footer{
-        color: white;
-        font-family: helvetica;
-        font-size: large;
+  
+        margin-top: 6vh;
+        font-size: x-large;
      } 
-     .h3-footer{
-        color: white;
-        font-family: helvetica;
-    
-        font-size: medium;
-     }  
-     .p-footer{
-        color: white;
-        font-family: helvetica;
-        font-size: small;
-    
-    
-     }
-    .h3-footer-2{
-        
-        color: white;
-        font-family: helvetica;
-        margin-top: 12vh;
-        font-size: medium;
-        margin-left: 20px;
-    }
-    .ul-footer{
-        color: white;
-        font-family: helvetica;
-        margin-top: 1vh;
-       font-size: small;
-    }
-    .li-footer{
-        margin-bottom: 1vh;
-    
-}
-}
-
-@media screen and (max-width:500px){
     .footer{
         background-color:rgba(139,1,2,255); 
         height: 60vh;
+    
+    }
+     
+     .h3-footer{
+        font-size: medium;
+     } 
+
+     .p-footer{
+        font-size: small;
+     }
+
+    .h3-footer-2{ 
+        font-size: medium;     
+    }
+
+    .ul-footer{   
+        margin-top: 1vh;
+       font-size: small;
+    }
+
+    .li-footer{
+        margin-bottom: 1vh; 
+}    
+}
+@media screen and (max-width: 600px){
+    .Titolo{
+        color: rgb(144,4,4);
+        font-size: 4vh;
+        font-size: bolder;
+        font-family: 'Nova Square';
+        letter-spacing: 10px;
+        
+    }
+    .Titolobg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/Red/Red/media/mountains2.png),
+        linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+        background-position: bottom, center;
+        background-size: 100%,100% ;
+        background-repeat: no-repeat, no-repeat;  
+        height: 28vh; 
     }    
 }
-@media screen and (max-width:400px){
+@media screen and (max-width: 400px){
+    .Titolo{
+        color: rgb(144,4,4);
+        font-size: 3vh;
+        font-size: bolder;
+        font-family: 'Nova Square';
+        letter-spacing: 4px;
+        
+    }
+    .Titolobg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-image: url(/Red/Red/media/mountains2.png),
+        linear-gradient(
+        rgba( 255, 255, 255, 1),
+        rgba(255, 255, 255, 0)
+        ), url(/Red/Red/media/switzerland-862870_1920.jpg);
+        background-position: bottom, center;
+        background-size: 100%,100% ;
+        background-repeat: no-repeat, no-repeat;  
+        height: 18vh; 
+    } 
+    .h2-footer{
+        font-size: x-large;
+     }   
+
     .footer{
         background-color:rgba(139,1,2,255); 
         height: 70vh;
-    }    
+        font-size: small;   
 }
-
 /* il font che ha usato per la referent è :font-family:  Nova Square, Rajdhani */
