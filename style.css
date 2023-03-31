@@ -201,14 +201,38 @@ ul.timeline > li:before {
 }
 .titolo-benefit{
     color: rgb(144,4,4);
-    font-size: 20px;
+    font-size: 40px;
+    
 }
 
+
+.titolone{
+    font-size: 35px;
+    color: rgb(144,4,4);
+    
+}
+
+
+.our-benefit-2{
+   
+    border-radius: 25%;
+    box-shadow: 0px 0px 0 2px #F8F9FA, 0px 0px 0 8px rgb(139,0,0);
+    width: 550px;
+    
+}
+
+
+.our-benefit-3{
+    border-radius: 25%;
+    box-shadow: 0px 0px 0 2px #F8F9FA, 0px 0px 0 8px rgb(139,0,0);
+    width: 550px;
+
+
+}
 /* inizio footer */
 .h2-footer{
-  
-   margin-top: 10vh;
-   font-size: x-large;
+   margin-left: 109px;
+   font-size: larger;
 } 
 
 .footer{
