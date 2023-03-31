@@ -136,6 +136,7 @@ ul.timeline > li:before {
  .titolo{
     color:rgb(144,4,4);
     font-family: helvetica;
+    margin-left: 16vh;
  }
 
  .sfondocontainer2 {
@@ -155,6 +156,15 @@ ul.timeline > li:before {
  }
 
  /* inizio sezione our team */
+
+ .card{
+    background-color:rgb(236, 236, 236);
+ }
+
+ .card-footer{
+    background-color:rgb(236, 236, 236);
+ }
+
 .h2Team{
     color: rgb(144,4,4);
     font-family: helvetica;
@@ -171,22 +181,26 @@ ul.timeline > li:before {
     text-align: center;
 }
 
+
 .icone-team {
     color: rgb(144,4,4);
    
 }
 .img-our-team{
     
-    display: flex;  
+   
    border-radius: 50%;
-   background-color: rgba(0, 200, 200, 0);
-   border: 3px solid  rgb(144,4,4);
+   box-shadow: 0px 0px 0 7px #F8F9FA, 0px 0px 0 10px rgb(139,0,0);
+   width: 100px;
     
     
     
 }
 .card{
    border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .benefit{
     display: flex;
