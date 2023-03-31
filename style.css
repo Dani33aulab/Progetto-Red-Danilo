@@ -60,11 +60,7 @@
     color: grey; 
     font-size: smaller;
 }
-@media screen and (max-width-sm){
-    .sezione_icone{
-        height: 40vh;
-    }
-}
+
 /* sezione 2 schede lorem */
 .scheda-sinistra{
     color:gray;
@@ -100,6 +96,7 @@
 ul.timeline {
     list-style-type: none;
     position: relative;
+    z-index: 2;
 }
 ul.timeline:before {
     content: ' ';
@@ -399,5 +396,11 @@ font-size: larger;
         background-color:rgba(139,1,2,255); 
         height: 70vh;
         font-size: small;   
+}
+}
+@media screen and (max-width-md){
+    .sezione_icone{
+        height: 40vh;
+    }
 }
 /* il font che ha usato per la referent è :font-family:  Nova Square, Rajdhani */
